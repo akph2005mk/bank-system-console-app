@@ -1159,41 +1159,7 @@ void go_back_manage_menu(){
    manage_user_screen();
 }
 
-//bool login_screen_validation(stuser_data &user_logged,vector<stuser_data>&vUsers){
-//        for (auto &i:vUsers) {
-//            if(i.authority==user_logged.authority&&i.password==user_logged.password){
-//                return true;
-//            }
-//        }
-//
-//    return false;
-//}
-//
-//void user_login(stuser_data &user,vector<stuser_data>&vUsers){
-//while(true){
-//        cout<<"\nenter username: ";
-//        cin>>user.authority;
-//        cout<<"\nenter password: ";
-//        cin>>user.password;
-//        if(!login_screen_validation(user,vUsers)){
-//            cout<<"\nwrong username/password";
-//            continue;
-//        }
-//        if(login_screen_validation(user,vUsers)){
-//            break;
-//        }
-//
-//   }
-//}
-//void login_screen(){
-//    cout<<"\n\n========================================"<<endl;
-//        cout<<setw(25)<<"login screen"<<endl;
-//        cout<<"========================================"<<endl;
-//    vector<stuser_data>vUsers=read_users_from_file();
-//    user_login(current_user,vUsers);
-//    main_menu();
-//
-//}
+
 bool FindUserByUsernameAndPassword(string Username, string Password, stuser_data& User)
 {
 
